@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2rem !important;
+}
+.card {
+  margin-left: 1rem !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+  border-radius: 10px !important;
+}
+.infected {
+  border-bottom: 7px solid rgba(186, 171, 218, 0.5);
+}
+.recovered {
+  border-bottom: 7px solid rgba(121, 215, 15, 0.5);
+}
+.deaths {
+  border-bottom: 7px solid rgba(232, 74, 95, 0.5);
+}
+.lastUpdate {
+  margin-bottom: 10px !important;
+  font-size: 14px !important;
+  color: #8d93ab;
+  font-family: "Poppins", sans-serif !important;
+}
+.countUp {
+  font-size: 20px !important;
+}
+@media only screen and (max-width: 1185px) {
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 2rem !important;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .card {
+    margin-bottom: 2rem !important;
+  }
+}

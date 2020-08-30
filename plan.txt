@@ -1,0 +1,5 @@
+-> To fetch total number of confirmed, recovered, and deaths data from main url and show the data in card component
+-> fetch only daily data by calling daily data api and show the data in a chart
+-> fetch all country names and make a country picker using <option> and map all the country names in <option> 
+-> store the state of selected country name  
+-> make bar chart and show the data of selected country name
