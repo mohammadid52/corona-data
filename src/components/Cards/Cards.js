@@ -26,6 +26,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
       border_color: `${styles.deaths}`,
     },
   ];
+
   return (
     <>
       <div className={styles.container}>
@@ -50,7 +51,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                     start={0}
                     end={data.value}
                     duration={1}
-                    seperator=","
+                    separator=","
                   />
                   <Typography className={styles.lastUpdate}>
                     {new Date(lastUpdate).toDateString()}
